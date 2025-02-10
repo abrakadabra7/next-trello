@@ -1,0 +1,63 @@
+.navbar {
+  @apply w-full bg-white shadow-md px-6 py-4;
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+.navbar-container {
+  @apply max-w-7xl mx-auto flex items-center justify-between;
+}
+
+.navbar-logo {
+  @apply text-2xl font-bold text-blue-600 hover:text-blue-700 transition-colors;
+}
+
+.navbar-menu {
+  @apply flex items-center gap-6;
+}
+
+.navbar-menu-item {
+  @apply text-gray-600 hover:text-blue-600 transition-colors font-medium;
+}
+
+.navbar-actions {
+  @apply flex items-center gap-4;
+}
+
+.navbar-button {
+  @apply px-4 py-2 rounded-lg font-medium transition-colors;
+}
+
+.navbar-button-primary {
+  @apply bg-blue-600 text-white hover:bg-blue-700;
+}
+
+.navbar-button-secondary {
+  @apply text-blue-600 hover:text-blue-700;
+}
+
+/* Navbar animasyonları */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Responsive tasarım */
+@media (max-width: 640px) {
+  .navbar {
+    @apply px-4;
+  }
+  
+  .navbar-logo svg {
+    @apply w-6 h-6;
+  }
+  
+  .navbar-logo {
+    @apply text-xl;
+  }
+}
