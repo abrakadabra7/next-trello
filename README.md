@@ -1,3 +1,24 @@
+# Trello Clone
+
+## Yapılanlar
+### 09/02/2025
+- Proje oluşturuldu
+- Navbar yapıldı
+- Dashboard yapıldı
+- Liste ekleme eklendi
+  
+### 10/02/2025
+- Kart ekleme eklendi
+- Proje oluşturma eklendi
+- Suruklemeler guncellendi
+- Son olarak hatalar giderildi 
+- Mobil tasarımı yapıldı
+<br>
+
+## Youtube Videosu İçin Görsele Tıklayabilirsiniz 
+[<img src="https://github.com/abrakadabra7/next-trello/blob/master/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202025-02-10%20160322.png" width="50%">](https://youtu.be/xv63-iNxuvM "Trello Clone With NextJs")
+<br><br>
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
